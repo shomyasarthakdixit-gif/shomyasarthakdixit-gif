@@ -61,12 +61,12 @@ class Shomya extends SoftwareEngineer {
 ## 📈 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shomyasarthakdixit-gif&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&v=1" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=shomyasarthakdixit-gif&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000" alt="GitHub Stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=shomyasarthakdixit-gif&theme=tokyonight&hide_border=true&background=000000" alt="GitHub Streak" width="48%" />
 </div>
 <br />
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shomyasarthakdixit-gif&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&v=1" alt="Top Languages" width="60%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=shomyasarthakdixit-gif&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000" alt="Top Languages" width="60%" />
 </div>
 
 ---
@@ -74,7 +74,11 @@ class Shomya extends SoftwareEngineer {
 ## 🐍 Contribution Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/shomyasarthakdixit-gif/shomyasarthakdixit-gif/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shomyasarthakdixit-gif/shomyasarthakdixit-gif/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shomyasarthakdixit-gif/shomyasarthakdixit-gif/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/shomyasarthakdixit-gif/shomyasarthakdixit-gif/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 ---
