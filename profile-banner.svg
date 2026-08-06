@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#0a0a0a" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+
+    <!-- Glowing Accent -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg)" rx="15" />
+  
+  <!-- Grid -->
+  <rect width="100%" height="100%" fill="url(#grid)" rx="15" />
+
+  <!-- Accent Lines -->
+  <path d="M-100,50 C200,200 400,-100 900,100" fill="none" stroke="#0070F3" stroke-width="2" stroke-opacity="0.4" filter="url(#glow)"/>
+  <path d="M-100,100 C300,-100 500,250 900,50" fill="none" stroke="#7928CA" stroke-width="2" stroke-opacity="0.4" filter="url(#glow)"/>
+  <path d="M-100,150 C400,300 600,-50 900,150" fill="none" stroke="#50E3C2" stroke-width="2" stroke-opacity="0.4" filter="url(#glow)"/>
+
+  <!-- Content -->
+  <text x="50" y="80" font-family="'Inter', -apple-system, sans-serif" font-weight="bold" font-size="36" fill="#ffffff">
+    Hi, I'm Shomya Sarthak Dixit <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>_
+  </text>
+  
+  <text x="50" y="125" font-family="'Inter', -apple-system, sans-serif" font-weight="500" font-size="20" fill="#a1a1aa">
+    Building intelligent, scalable, and premium web experiences.
+  </text>
+  
+  <text x="50" y="160" font-family="'Courier New', monospace" font-size="14" fill="#50E3C2">
+    class Developer { stack = ["Next.js", "AI", "Python"]; }
+  </text>
+  
+  <!-- Decorative Dots -->
+  <circle cx="740" cy="40" r="4" fill="#ff5f56"/>
+  <circle cx="760" cy="40" r="4" fill="#ffbd2e"/>
+  <circle cx="780" cy="40" r="4" fill="#27c93f"/>
+</svg>
