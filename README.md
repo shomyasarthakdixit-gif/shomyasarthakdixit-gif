@@ -61,12 +61,12 @@ class Shomya extends SoftwareEngineer {
 ## 📈 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shomyasarthakdixit-gif&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shomyasarthakdixit-gif&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&v=1" alt="GitHub Stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=shomyasarthakdixit-gif&theme=tokyonight&hide_border=true&background=000000" alt="GitHub Streak" width="48%" />
 </div>
 <br />
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shomyasarthakdixit-gif&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000" alt="Top Languages" width="60%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shomyasarthakdixit-gif&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&v=1" alt="Top Languages" width="60%" />
 </div>
 
 ---
